@@ -10,9 +10,9 @@ def sumState(indexJ):
 
 
 sentence_state = dict()
-sentence_state['NEG'] = 0.0
-sentence_state['NEUT'] = 0.0
-sentence_state['POS'] = 0.0
+sentence_state['NEG'] = 0.0 # it is negative score from sentence.
+sentence_state['NEUT'] = 0.0 # it is neutral score from sentence.
+sentence_state['POS'] = 0.0 # it is positive score from sentence.
 
 komoran = Komoran()
 # Open a csv file
